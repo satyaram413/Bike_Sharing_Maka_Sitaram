@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> Boom Bikes
 
 
 ## Table of Contents
@@ -11,38 +11,37 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+**Boom Bikes**: A US based bike sharing company has a large fleet of bikes. They have a large number of stations where they have a large number of bikes. Due to recent pandemic, Boom Bikes has lost his business and is looking for a way to overcome the loss, once the pandemic ends.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The company wants to know:
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands
+## Goal:
+* Develop a machine learning model which can describe the features which are important in predicting the demand for shared bikes.
+* The model will then be used by marketing team of Boom Bikes to understand the demand for shared bikes.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1. As we can see see there is a negative linear relation between spring season and bike count, meaning the marketing team has to expand there business during spring season
+2. If windspeed is high it is risky for people to go out and rent out a bike and hence the bike count is low.
+3. Marketing team should concentrate in the month of July, as the number of users in July are low
+4. During rainy season, people prefer cabs over bikes, probably marketing team should focus on providing a gadget which could preotect people during rainy season
+5. During holiday people prefer to stay at home, so the bike count is low, however if Boom bikes campaigns that some amount during holdays whould be donated to charities, then users will come forward and use Boom Bikes during holidays too.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- python 3.8.9
+- sklearn 
+- statsmodels.api
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@satyaram413] - feel free to contact me!
 
 
 <!-- Optional -->
